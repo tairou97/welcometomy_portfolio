@@ -9,42 +9,42 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.navbar {
 
 
-  background-color: #333;
+.navbar ul li a {
+  display: flex;
+
+  color: #b5b4b4c2;
+
+
 }
 
-.navbar ul li {
 
-  background-color: #333;
-
-}
 
 
 .home {
+  background-color: #935454;
+
+}
+
+.home,
+.about,
+.projects {
   display: flex;
   justify-content: center;
   align-items: center;
   color: #ffffff;
-  height: 100vh;
-  background-color: #935454;
+
 }
 
 .about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #ffffff;
-  height: 100vh;
   background-color: #969696;
 }
 
-.Projects {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #ffffff;
-  height: 100vh;
+
+
+
+
+.projects {
   background-color: #29331f;
 }

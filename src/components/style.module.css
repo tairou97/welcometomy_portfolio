@@ -1,0 +1,39 @@
+.button {
+  position: fixed;
+  right: 0;
+  margin: 20px;
+  width: 80px;
+  height: 80px;
+  background-color: #455ce9;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.button .burger {
+  width: 100%;
+}
+.button .burger::after, .button .burger::before {
+  content: "";
+  display: block;
+  width: 40%;
+  background-color: white;
+  height: 1px;
+  margin: auto;
+  position: relative;
+}
+.button .burger::after {
+  top: -5px;
+}
+.button .burger::before {
+  top: 5px;
+}
+.button .burgerActive::after {
+  top: -1px;
+  transform: rotate(-45deg);
+}
+.button .burgerActive::before {
+  top: 1px;
+  transform: rotate(45deg);
+}/*# sourceMappingURL=style.module.css.map */
