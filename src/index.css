@@ -2,49 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'Roboto', sans-serif;
-}
 
-
-
-.navbar ul li a {
-  display: flex;
-
-  color: #b5b4b4c2;
-
-
-}
-
-
-
-
-.home {
-  background-color: #935454;
-
-}
 
 .home,
 .about,
-.projects {
+.project {
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #ffffff;
+}
 
+.home {
+  background-color: #999D9E;
+  color: #f1f1f1;
 }
 
 .about {
-  background-color: #969696;
+  background-color: #bbbbbb;
+  color: #f1f1f1;
 }
 
+.project {
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 
+}
 
-
-.projects {
-  background-color: #29331f;
+.project {
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
